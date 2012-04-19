@@ -9,15 +9,15 @@ Language: Python, because the TiddlyWeb serverside ecosystem is mostly Python. J
 
 The tool should initially support these modes:
 
-### tiddlyapp push URL [options]
+`tiddlyapp push URL [options]`
 
 Push contents of current directory to URL.
 
-### tiddlyapp watch URL [options]
+`tiddlyapp watch URL [options]`
 
 Monitor the current directory for changes and immediately upload any changed files to URL.
 
-### tiddlyweb proxy URL
+`tiddlyapp proxy URL [options]`
 
 Start a SOCKS proxy which serves local files when they are present and falls through to the remote server for other files. 
 
